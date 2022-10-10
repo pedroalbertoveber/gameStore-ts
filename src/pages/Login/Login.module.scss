@@ -1,0 +1,75 @@
+@import 'styles/_colors.scss';
+
+.loginContainer {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: $background-default;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5rem 1rem 1rem;
+
+  &__title {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 2rem;
+
+    h2 {
+      color: $white-default;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
+
+  form {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      label {
+        color: $white-default;
+        font-size: 1.2rem;
+      }
+
+      input {
+        border: none;
+        margin: .5rem 0 1rem;
+        padding: .5rem 20px;
+        border-radius: 20px;
+        font-size: 1.2rem;
+
+        &:focus {
+          outline: none;
+        }
+
+        &::placeholder {
+          color: $dark-gray;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: .5rem;
+      border-radius: 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $white-default;
+      background-color: $medium-green;
+      cursor: pointer;
+
+      &:disabled {
+        background-color: $dark-gray;
+      }
+    }
+  }
+}
