@@ -46,7 +46,7 @@
     "price": 100,
     "genre": "Ação",
     "smallImgPath": "assets/gamesImg/gow-small.jpg",
-    "largeImgPath": "assets/gamesImg/fow-large.jpg",
+    "largeImgPath": "assets/gamesImg/gow-large.jpg",
     "console": ["PS4", "PS5"]
   },
   {

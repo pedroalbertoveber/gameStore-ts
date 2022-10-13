@@ -1,0 +1,22 @@
+@import 'styles/_colors.scss';
+
+.returnContainer {
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  padding: 2rem 1rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+    svg {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
+  }
+}
