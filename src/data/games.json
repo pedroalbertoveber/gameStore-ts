@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Batman: Arkham Knight",
+    "description": "No explosivo final da série Arkham, Batman encara a última ameaça contra a cidade que jurou proteger. O Espantalho retorna para reunir um grupo impressionante de supervilões, incluindo o Pinguim, o Duas-Caras e a Arlequina, para destruir definitivamente o Cavaleiro das Trevas. Batman: Arkham Knight apresenta a versão desenvolvida exclusivamente pela Rocksteady do Batmóvel, que pode ser dirigido pela primeira vez na franquia. A inclusão desse veículo lendário, combinada com a jogabilidade aclamada da série Batman Arkham, oferece aos jogadores a experiência definitiva de jogar como Batman enquanto percorrem as ruas e voam pelo céu de Gotham City. Seja O Batman.",
+    "price": 150,
+    "genre": "Ação",
+    "smallImgPath": "assets/gamesImg/batman-small.jpg",
+    "largeImgPath": "assets/gamesImg/batman-large.jpg",
+    "console": ["PS4", "PS5", "Xbox One"]
+  },
+  {
+    "id": 2,
+    "title": "Call Of Duty: Cold War",
+    "description": "Black Ops Cold War, a sequência direta de Call of Duty®: Black Ops, mergulha os fãs nas profundezas da volátil batalha geopolítica da Guerra Fria no início dos anos 80. Nada é o que parece em uma emocionante Campanha para um jogador, em que os jogadores ficarão frente a frente com figuras históricas e verdades inconvenientes em batalhas ao redor do mundo, passando por locais emblemáticos como Berlim Oriental, Vietnã, Turquia, a sede da KGB soviética e muito mais.",
+    "price": 350,
+    "genre": "Ação",
+    "smallImgPath": "assets/gamesImg/cod-small.jpg",
+    "largeImgPath": "assets/gamesImg/cod-large.jpg",
+    "console": ["PS4", "PS5"]
+  },
+  {
+    "id": 3,
+    "title": "F1 2022",
+    "description": "Pilote os incríveis carros da temporada 2022 da Formula 1®, com os 20 pilotos e 10 equipes do mundo real, e assuma o controle da sua experiência com novas sequências imersivas e televisivas da corrida. Crie uma equipe e leve-a ao topo do pódio com uma experiência mais profunda no aclamado modo carreira Minha Equipe, dispute corridas mano a mano em tela dividida, uma carreira de dois jogadores ou no modo multiplayer e pilote os supercarros de grandes nomes do automobilismo com o novíssimo recurso Pirelli Hot Laps.",
+    "price": 275,
+    "genre": "Corrida",
+    "smallImgPath": "assets/gamesImg/f122-small.jpg",
+    "largeImgPath": "assets/gamesImg/f122-large.jpg",
+    "console": ["PS4", "PS5"]
+  },
+  {
+    "id": 4,
+    "title": "FIFA 23",
+    "description": "EA SPORTS™ FIFA 23 traz o Jogo de Todo Mundo aos gramados com a chegada da FIFA World Cup™ masculina e feminina, além da inclusão de times femininos e novas maneiras de jogar seus modos favoritos. Dispute os maiores torneios de futebol com a FIFA World Cup™ masculina e feminina que chegarão ao FIFA 23 em atualizações pós-lançamento. Jogue com clubes femininos pela primeira vez na história e ainda aproveite os recursos de crossplay que facilitam desafiar as pessoas que você conhece*.",
+    "price": 299,
+    "genre": "Futebol",
+    "smallImgPath": "assets/gamesImg/fifa23-small.jpg",
+    "largeImgPath": "assets/gamesImg/fifa23-large.jpg",
+    "console": ["PS4", "PS5", "Xbox One"]
+  },
+  {
+    "id": 5,
+    "title": "God of War",
+    "description": "Um novo começo ousado: sua vingança contra os deuses do Olimpo agora é passado e Kratos vive como um homem comum no reino dos monstros e deuses nórdicos. E é nesse mundo inóspito e implacável que ele precisa lutar para sobreviver... e ensinar seu filho a fazer o mesmo. Essa nova versão surpreendente de God of War desconstrói os principais elementos que definiram a série (combates gratificantes, proporção espetacular e uma narrativa poderosa), combinando-os de uma forma diferente.",
+    "price": 100,
+    "genre": "Ação",
+    "smallImgPath": "assets/gamesImg/gow-small.jpg",
+    "largeImgPath": "assets/gamesImg/fow-large.jpg",
+    "console": ["PS4", "PS5"]
+  },
+  {
+    "id": 6,
+    "title": "MK: Armaggedon",
+    "description": "Houveram muitos lutadores poderosos pelos milênios, mas eras de Mortal Kombat começavam a manchar o tecido dos reinos. O ponto crítico tinha finalmente sido alcançado. Foi previsto que os lutadores um dia iriam crescer em número e força. Se não fosse corrigido, esse combat iria enfraquecer e abalar os reinos, quase causando o apocalipse. Os Deuses Anciãos ordenaram uma guarda para a vida, para evitar a destruição total. Aquele que usasse o desejo por sangue insaciável dos combatentes. Como traças em fogo, eles foram postos em batalha.",
+    "price": 50,
+    "genre": "Ação",
+    "smallImgPath": "assets/gamesImg/mk-small.jpg",
+    "largeImgPath": "assets/gamesImg/mk-large.jpg",
+    "console": ["PS2"]
+  },
+  {
+    "id": 7,
+    "title": "Outlast 2",
+    "description": "Tu és Blake Langermann, um operador de câmara que trabalha com a sua esposa, Lynn. Sois ambos jornalistas de investigação, dispostos a correr riscos e ir até ao fundo para descobrir as histórias que mais ninguém se atreveria a investigar. Estais a seguir o rastro das pistas que tiveram origem no assassinato aparentemente impossível de uma mulher grávida, apenas conhecida como Jane Doe. A investigação conduziu-vos até ao centro do deserto do Arizona, a uma escuridão tão profunda que ninguém poderia lançar um fio de luz sobre ela, e a uma corrupção tão intensa que enlouquecer poderá ser a solução mais sensata.",
+    "price": 150,
+    "genre": "Terror",
+    "smallImgPath": "assets/gamesImg/outlast-small.jpg",
+    "largeImgPath": "assets/gamesImg/outlast-large.jpg",
+    "console": ["PS4", "PS5", "Xbox One"]
+  },
+  {
+    "id": 8,
+    "title": "Resident Evil 4",
+    "description": "Após os acontecimentos em Raccon City, o sobrevivente Leon Scott Kenedy é designado para ser o protetor da família do presidente norte-americano. Porém, semanas antes de assumir seu posto, a filha do presidente é sequestrada e levada para uma zona solitária e rural no sul da Espanha. Leon é enviado para resgatar a filha do presidente, porém, não esperava encontrar tanto terror em seu caminho.",
+    "price": 99,
+    "genre": "Terror",
+    "smallImgPath": "assets/gamesImg/resident-evil-4-small.jpg",
+    "largeImgPath": "assets/gamesImg/resident-evil-4-large.jpg",
+    "console": ["PS2", "PS4"]
+  },
+  {
+    "id": 9,
+    "title": "Spider-Man: Miles Morales",
+    "description": "Descubra a história completa do teioso com Marvel's Spider-Man: Miles Morales Edição Ultimate. Este pacote imperdível vem com o Marvel's Spider-Man Remasterizado (para PS5™), que inclui o premiado Marvel's Spider-Man e três capítulos do Marvel's Spider-Man: A Cidade Que Nunca Dorme remasterizados e aprimorados para o PS5™.",
+    "price": 250,
+    "genre": "Ação",
+    "smallImgPath": "assets/gamesImg/spiderman-small.jpg",
+    "largeImgPath": "assets/gamesImg/spiderman-large.jpg",
+    "console": ["PS4", "PS5", "Xbox One"]
+  }
+]

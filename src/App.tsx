@@ -4,11 +4,9 @@ import Router from 'routes';
 
 function App() {
   return (
-    <main>
-      <UserProvider>
-        <Router />
-      </UserProvider>
-    </main>
+    <UserProvider>
+      <Router />
+    </UserProvider>
   );
 }
 

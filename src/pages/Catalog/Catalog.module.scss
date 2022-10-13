@@ -1,0 +1,20 @@
+.main {
+  width: 100%;
+  padding: 1rem;
+}
+
+.title {
+  padding: 1rem 0;
+   h1 {
+    font-size: 1.5rem;
+   }
+}
+
+.catalogContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
