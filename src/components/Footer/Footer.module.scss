@@ -1,0 +1,21 @@
+@import 'styles/_colors.scss';
+
+.footerContainer {
+  padding: 2em 0;
+  text-align: center;
+  border-top: 1px solid $white-default;
+  
+  div {
+    margin-bottom: 1rem;
+    font-size: .8rem;
+  }
+
+  address {
+    font-style: normal;
+    font-size: .8rem;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1rem;
+  }
+}
