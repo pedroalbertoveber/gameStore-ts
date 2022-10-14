@@ -1,11 +1,18 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, useContext } from "react";
 import games from 'data/games.json';
 import GameCard from "components/GameCard";
 import styles from './Catalog.module.scss';
+import { UserContext } from "common/UserContext";
+import { Navigate } from "react-router-dom";
 
 const Catalog = ():ReactElement => {
 
   const gameList = [...games];
+  const { isLogged } = useContext(UserContext);
+
+  if (!isLogged) {
+    return <Navigate to='/login' />
+  }
 
   return (
     <main className={styles.main}>

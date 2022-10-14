@@ -1,8 +1,8 @@
+import React from 'react';
 import Catalog from 'pages/Catalog';
 import Default from 'pages/Default';
 import GameInfo from 'pages/GameInfo';
 import Login from 'pages/Login';
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const Router = () => {

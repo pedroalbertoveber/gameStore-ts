@@ -1,17 +1,41 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { UserContext } from 'common/UserContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Navigate } from 'react-router-dom';
 import styles from './Login.module.scss';
 
 const Login = () => {
 
-  const { name, setName, cash, setCash } = useContext(UserContext);
+  const { name, setName, cash, setCash, setIsLogged, isLogged } = useContext(UserContext);
   const navigate = useNavigate();
+
+  const userData = {
+    name: name,
+    cash: cash,
+  };
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): void => {
     e.preventDefault();
-    navigate('/home', { replace: true });
+    setIsLogged(!isLogged);
+    window.localStorage.setItem('userData', JSON.stringify(userData));
+    navigate('/', { replace: true });
   };
+
+  useEffect(() => {
+
+    const userLogged = window.localStorage.getItem('userData');
+
+    if (userLogged) {
+      const userLoggedJs = JSON.parse(userLogged);
+
+      setName(userLoggedJs.name);
+      setCash(userLoggedJs.cash);
+      setIsLogged(true);
+    }
+  }, [setIsLogged, setName, setCash]);
+
+  if (isLogged) {
+    return <Navigate to='/' />
+  }
 
   return (
     <section className={styles.loginContainer}>
