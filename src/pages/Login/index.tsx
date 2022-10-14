@@ -26,7 +26,7 @@ const Login = () => {
 
     if (userLogged) {
       const userLoggedJs = JSON.parse(userLogged);
-
+      
       setName(userLoggedJs.name);
       setCash(userLoggedJs.cash);
       setIsLogged(true);
@@ -34,7 +34,7 @@ const Login = () => {
   }, [setIsLogged, setName, setCash]);
 
   if (isLogged) {
-    return <Navigate to='/' />
+    return <Navigate to='/' />;
   }
 
   return (

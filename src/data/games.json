@@ -7,7 +7,8 @@
     "genre": "Ação",
     "smallImgPath": "assets/gamesImg/batman-small.jpg",
     "largeImgPath": "assets/gamesImg/batman-large.jpg",
-    "console": ["PS4", "PS5", "Xbox One"]
+    "console": ["PS4", "PS5", "Xbox One"],
+    "qtd": 0
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "genre": "Ação",
     "smallImgPath": "assets/gamesImg/cod-small.jpg",
     "largeImgPath": "assets/gamesImg/cod-large.jpg",
-    "console": ["PS4", "PS5"]
+    "console": ["PS4", "PS5"],
+    "qtd": 0
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "genre": "Corrida",
     "smallImgPath": "assets/gamesImg/f122-small.jpg",
     "largeImgPath": "assets/gamesImg/f122-large.jpg",
-    "console": ["PS4", "PS5"]
+    "console": ["PS4", "PS5"],
+    "qtd": 0
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "genre": "Futebol",
     "smallImgPath": "assets/gamesImg/fifa23-small.jpg",
     "largeImgPath": "assets/gamesImg/fifa23-large.jpg",
-    "console": ["PS4", "PS5", "Xbox One"]
+    "console": ["PS4", "PS5", "Xbox One"],
+    "qtd": 0
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "genre": "Ação",
     "smallImgPath": "assets/gamesImg/gow-small.jpg",
     "largeImgPath": "assets/gamesImg/gow-large.jpg",
-    "console": ["PS4", "PS5"]
+    "console": ["PS4", "PS5"],
+    "qtd": 0
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "genre": "Ação",
     "smallImgPath": "assets/gamesImg/mk-small.jpg",
     "largeImgPath": "assets/gamesImg/mk-large.jpg",
-    "console": ["PS2"]
+    "console": ["PS2"],
+    "qtd": 0
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "genre": "Terror",
     "smallImgPath": "assets/gamesImg/outlast-small.jpg",
     "largeImgPath": "assets/gamesImg/outlast-large.jpg",
-    "console": ["PS4", "PS5", "Xbox One"]
+    "console": ["PS4", "PS5", "Xbox One"],
+    "qtd": 0
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "genre": "Terror",
     "smallImgPath": "assets/gamesImg/resident-evil-4-small.jpg",
     "largeImgPath": "assets/gamesImg/resident-evil-4-large.jpg",
-    "console": ["PS2", "PS4"]
+    "console": ["PS2", "PS4"],
+    "qtd": 0
   },
   {
     "id": 9,
@@ -87,6 +95,7 @@
     "genre": "Ação",
     "smallImgPath": "assets/gamesImg/spiderman-small.jpg",
     "largeImgPath": "assets/gamesImg/spiderman-large.jpg",
-    "console": ["PS4", "PS5", "Xbox One"]
+    "console": ["PS4", "PS5", "Xbox One"],
+    "qtd": 0
   }
 ]

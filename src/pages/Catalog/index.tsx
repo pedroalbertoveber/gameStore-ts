@@ -21,7 +21,7 @@ const Catalog = ():ReactElement => {
       </div>
       <section className={styles.catalogContainer}>
         {gameList.map(game => (
-          <GameCard key={game.id} {...game} />
+          <GameCard {...game} key={game.id}/>
         ))}
       </section>
     </main>

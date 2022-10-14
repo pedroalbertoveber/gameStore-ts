@@ -7,4 +7,5 @@ export interface IGame {
   smallImgPath: string,
   largeImgPath: string,
   console: string[],
+  qtd: number,
 };
