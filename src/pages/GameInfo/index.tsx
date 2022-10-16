@@ -1,15 +1,21 @@
-import React, { ReactElement } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { ReactElement, useContext } from 'react';
+import { Navigate, useParams } from 'react-router-dom';
 import games from 'data/games.json';
 import styles from './GameInfo.module.scss';
 import Return from 'components/Return';
+import { UserContext } from 'common/UserContext';
 
 const GameInfo = ():ReactElement => {
 
   const { id } = useParams();
   const selectedGame = games.find(item => item.id === Number(id));
+  const { isLogged } = useContext(UserContext);
 
   const { title, description, price, genre, console, largeImgPath } = selectedGame!;
+
+  if (!isLogged) {
+    return <Navigate to='/login' />;
+  }
 
   return (
     <section className={styles.section}>
