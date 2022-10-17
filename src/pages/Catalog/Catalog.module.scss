@@ -1,3 +1,6 @@
+@import 'styles/colors.scss';
+@import 'styles/breakpoints.scss';
+
 .main {
   width: 100%;
   padding: 1rem 64px;
@@ -17,4 +20,93 @@
   max-width: 1800px;
   margin: 0 auto;
   justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: flex-start;
+
+  .search {
+    padding: .5rem 1rem;
+    border: 1px solid $white-default;
+    border-radius: 5px 0 0 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: .5rem;
+    }
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-bottom: 2rem;
+    
+    .option {
+      padding: .5rem 1rem;
+      border: 1px solid $white-default;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      transition: all .2s;
+      &:first-child {
+        border-radius: 0 5px 0 0;
+      }
+      &:last-child {
+        border-radius: 0 0 5px 5px;
+      }
+
+      &:hover {
+        background-color: $dark-green;
+        font-weight: 600;
+      }
+    }
+
+    .closedFilter {
+      border-radius: 0 5px 5px 0;
+      padding: .5rem 1rem;
+      border: 1px solid $white-default;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      transition: all .2s;
+
+      &:hover {
+        font-weight: 600;
+        background-color: $dark-green;
+      }
+    }
+  }  
+}
+
+@media screen and (max-width: $smart-phones) {
+  .filterContainer {
+    flex-direction: column;
+    align-items: center;
+  
+    .search {
+      border-radius: 5px 5px 0 0;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .filter {
+      width: 100%;
+      
+      .option {
+        &:first-child {
+          border-radius: 0;
+        }
+      }
+  
+      .closedFilter {
+        border-radius: 0 0 5px 5px;
+      }
+    }  
+  }
 }

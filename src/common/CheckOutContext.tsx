@@ -28,11 +28,20 @@ export const CheckOutProvider = ({ children }: { children: React.ReactNode }) =>
 export const UseCheckOutContext = () => {
   const { checkOutList, setCheckOutList } = useContext(CheckOutContext);
   const [ length, setLength ] = useState<number>(0);
+  const [ budget, setBudget ] = useState<number>(0);
  
   useEffect(() => {
-    let sum = 0;
-    checkOutList.forEach(item => sum += item.qtd);
-    setLength(sum);
+    let listLength = 0;
+    let listBudget = 0;
+
+    checkOutList.forEach(item => {
+      listLength += item.qtd;
+      listBudget += (item.qtd * item.price);
+    });
+
+    setLength(listLength);
+    setBudget(listBudget); 
+    
   }, [ checkOutList ]);
 
   const changeQtd = (id: number, increase: number): void => {
@@ -67,10 +76,15 @@ export const UseCheckOutContext = () => {
     changeQtd(selectedGame.id, -1);
   };
 
+  const handleRemove = (id: number ) => {
+    setCheckOutList(list => list.filter(item => item.id !== id));
+  };
+
   return {
     handleAdd,
     handleDecrease,
+    handleRemove,
     length,
+    budget,
   }
-}
-
+};

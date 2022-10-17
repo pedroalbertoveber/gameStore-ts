@@ -3,6 +3,7 @@ import { IGame } from 'interfaces';
 import React, { ReactElement } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './GameCard.module.scss';
+import { toast } from 'react-toastify';
 
 const GameCard = (props: IGame): ReactElement => {
 
@@ -33,7 +34,10 @@ const GameCard = (props: IGame): ReactElement => {
         </div>
       </figcaption>
       <div className={styles.buttonContainer}>
-        <button type='button' className={styles.grocery} onClick={() => handleAdd(props)}>
+        <button type='button' className={styles.grocery} onClick={() => {
+          handleAdd(props)
+          toast.success('Jogo adicionado ao seu carrinho!');
+          }}>
           Adicionar ao carrinho
         </button>
         <button type='button' className={styles.knowMore} onClick={() => navigate(`${id}`)}>
