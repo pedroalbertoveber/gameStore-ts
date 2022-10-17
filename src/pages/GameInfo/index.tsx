@@ -27,7 +27,6 @@ const GameInfo = ():ReactElement => {
     <>
       <Return />
       <section className={styles.section}>
-
         <div className={styles.gameContainer}>
           <figure>
             <img src={largeImgPath} alt={title} />
